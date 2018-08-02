@@ -1,0 +1,122 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	height: 50px;
+	font-weight: bolder;
+	background: #031996;
+	color: #f4bc3e;
+}
+
+#rechclient{
+	margin-top: 10px;
+}
+
+
+#principal {
+	min-height: 100%;
+	height: auto;
+	margin: 0 auto -20px;
+}
+
+#contenu {
+	width: 1000px;
+	margin: auto;
+}
+
+#pied{
+	background: linear-gradient(to bottom,  #031996 0%,#1e3cbf 49%,#186ace 100%);
+	color: #fff;
+}
+
+#pied, #blocpied {
+	height: 20px;
+}
+
+#tableau ,#tableau td,#tableau  th {
+	border: 1px solid; 
+	margin: 0;
+	padding: 0;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+#tableau {
+	width: 980px; 
+}
+
+#tableau td{
+	padding-left: 5px;
+}
+
+#tableau th{
+	background-color: #f4bc3e;
+}
+
+/*********************************************/
+/*                 le menu                   */
+/*********************************************/
+.titremenucss{
+	display: block;
+	width: 100px;
+	height: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 5px;
+}
+
+#menucss {
+	position : absolute;
+	width: 100%;
+	height: 30px;
+	background: linear-gradient(to bottom,  #031996 0%,#1e3cbf 49%,#186ace 100%);
+}
+
+#menucss ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#menucss ul li {
+	float: left;
+	margin: auto;
+	padding: 0;
+}
+
+#menucss ul li a {
+	display: block;
+	width: 100px;
+	color: white;
+	text-decoration: none;
+	padding: 5px;
+	margin-top: 1px;
+	background: radial-gradient(ellipse at center,#186ace 0%,#1e3cbf 50%,#031996 100%);
+}
+
+#menucss > ul > li:first-child a {
+	background: none;
+	height: 18px;
+	padding: 4px;
+}
+
+#menucss ul li a:hover {
+	color: #f4bc3e;
+}
+
+#menucss ul li ul {
+	display: none;
+}
+
+#menucss ul li:hover ul {
+	display: block;
+}
+
+#menucss ul li:hover ul li {
+	float:none;
+}
