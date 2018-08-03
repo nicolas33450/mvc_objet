@@ -35,11 +35,11 @@ class Dispatcheur
             // la recherche des informations
             $monTab = array_merge($_GET, $_POST);
             
-            if(count($monTab)>3)
+           /* if(count($monTab)>3)
             { 
-                echo 'monTab = ' . print_r($monTab);
+                echo 'monTab = ' . print_r($monTab);// print_r affiche un tableau
                 exit(0);
-            }
+            }*/
 
             // Si un controleur est indiqué (s’il existe)
             if(isset($monTab['controleur']))
